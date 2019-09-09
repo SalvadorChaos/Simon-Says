@@ -3,11 +3,20 @@ body {
   background-color: #011F3F;
 }
 
+p {
+  color: #FEF2BF;
+  font-family: 'Press Start 2P', cursive;
+}
+
 #level-title {
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
-  margin:  5%;
+  margin: none 5% 5% 5%;
   color: #FEF2BF;
+}
+
+.note {
+  margin-bottom: 4px;
 }
 
 .container {
@@ -50,4 +59,17 @@ body {
 .pressed {
   box-shadow: 0 0 20px white;
   background-color: grey;
+}
+
+.message {
+  margin-top: 22px;
+}
+
+.link {
+  color: #FEF2BF;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: skyblue;
 }
